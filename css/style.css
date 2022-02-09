@@ -159,6 +159,8 @@ a{
 
 .category{
 	font-family: 'Ubuntu';
+	padding-bottom: 60px;
+	border-bottom: 2px solid #A39F9F;
 }
 
 .category__title{
@@ -168,4 +170,38 @@ a{
 	border-bottom: 2px solid #A39F9F;
 }
 
+.category__products{
+	margin-top: 60px;
+}
+
+.products{
+	display: flex;
+	justify-content: space-between;
+}
+
+.product{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 255px;
+}
+
+.product__difficulty{
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.product__img{
+	margin-top: 23px;
+	pointer-events: none;
+}
+
+.product__title{
+	font-size: 18px;
+	font-weight: 300;
+	padding: 28px 75px 50px 75px;
+	background: #74EB6A;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
 
