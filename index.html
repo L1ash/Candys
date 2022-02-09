@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="fonts/montserrat-v23-latin_cyrillic/montserrat.css">
   <link rel="stylesheet" href="fonts/ubuntu-v19-latin_cyrillic/ubuntu.css">
   <link rel="stylesheet" href="fonts/raleway-v26-latin/raleway.css">
+  <link rel="stylesheet" href="fonts/source-sans-pro-v18-latin_cyrillic/source-sans-pro.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Jack's Sour House</title>
 </head>
@@ -15,12 +16,14 @@
     <header class="header">
       <div class="first-part">
         <img src="img/Logo.png" alt="logo">
-        <ul class="header__menu menu">
-          <li class="menu__item"><a href="#">Купить</a></li>
-          <li class="menu__item"><a href="#">Информация</a></li>
-          <li class="menu__item"><a href="#">Скидки</a></li>
-          <li class="menu__item"><a href="#">Корзина</a></li>
-        </ul>
+        <nav>
+          <ul class="header__menu menu">
+            <li class="menu__item"><a href="#">Купить</a></li>
+            <li class="menu__item"><a href="#">Информация</a></li>
+            <li class="menu__item"><a href="#">Скидки</a></li>
+            <li class="menu__item"><a href="#">Корзина</a></li>
+          </ul>
+        </nav>
       </div>
       <div class="second-part">
         <p>Наша гордость, конфета которую никто не смог съесть до конца</p>
@@ -28,7 +31,8 @@
     </header>
     
     <main class="main">
-      <div class="main__offer offer">
+
+      <section class="main__offer offer">
         <div class="offer__describe-and-button">
           <div class="describe-and-button describe">
             <span class="describe__title"><h2>Jack's Sour House</h2></span>
@@ -45,9 +49,9 @@
           <img src="img/offer_imt.png" alt="">
           <span class="img__describe">Brain blasterz candy</span>
         </div>
-      </div>
+      </section>
 
-      <div class="main__category category">
+      <section class="main__category category">
         <div class="category__title">
           Категории сладостей
         </div>
@@ -81,10 +85,51 @@
             </li>
           </a>
         </ul>
-      </div>
+      </section>
 
-      
+      <section class="main__stock stock">
+        <div class="stock__title">Акции</div>
+        <div class="stock__describe-and-img">
+          <div class="stock__describe describe-stock">
+            <div class="describe-stock__title">Собери свой кислый TOXIC BOX и получи скидку на <br> нашу продукцию, а ещё ты можешь сам выбрать как будет выглядить твой box.</div>
+            <div class="describe-stock__describe">Скидка зависит от колличества <br> продукции в TOXIC BOX. Вы можете получить скидку до 50%.</div>
+            <div class="describe-stock__button">
+              <a href="">Создать TOXIC BOX</a>
+            </div>
+          </div>
+          <div class="stock__img stock-img">
+            <img src="img/toxic-box.png" alt="">
+            <div class="stock-img__describe">TOXIC BOX</div>
+          </div>
+        </div>
+      </section>
+
     </main>
+
   </div>
+
+  <footer class="footer ">
+    <div class="container">
+      <div class="footer__logo">
+      Jack's Sour House
+      </div>
+      <ul class="footer__nav nav nav-6elem">
+        <a href="#"><li class="nav__item">Главная</li></a>
+        <a href="#"><li class="nav__item">О магазине</li></a>
+        <a href="#"><li class="nav__item">Каталог</li></a>
+        <a href="#"><li class="nav__item">Магазины</li></a>
+        <a href="#"><li class="nav__item">Доставка</li></a>
+        <a href="#"><li class="nav__item">Контакты</li></a>
+      </ul>
+      <ul class="footer__nav02 nav nav-5elem">
+        <a href="#"><li class="nav__item">Конфеты</li></a>
+        <a href="#"><li class="nav__item">Лединцы</li></a>
+        <a href="#"><li class="nav__item">Жвачки </li></a>
+        <a href="#"><li class="nav__item">Пирожки</li></a>
+        <a href="#"><li class="nav__item">Лакрицы</li></a>
+      </ul>
+    </div>
+  </footer>
+
 </body>
 </html>
