@@ -1,0 +1,171 @@
+/* Cброс стилей */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/* Сброс стилей конец */
+
+.container{
+  width: 1113px;
+  margin: 0 auto;
+}
+
+.header{
+	font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  margin-top: 81px;
+}
+
+.first-part{
+	display: flex;
+	border-bottom: 2px solid #8C8B8B;
+	width: 540px;
+	padding-bottom: 11px;
+}
+
+.second-part{
+	margin-left: 46px;
+	border-bottom: 2px solid #8C8B8B;
+
+}
+
+.menu{
+  display: flex;
+  width: 338px;
+  justify-content: space-between;
+}
+
+.header__menu{
+  margin-left: 130px;
+}
+
+.main__offer{
+	margin-top: 61px;
+}
+
+.offer{
+	display: flex;
+}
+
+.describe{
+	font-family: 'Ubuntu';
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 542px;
+	height: 169px;
+}
+
+.describe__pre-describe{
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.describe__main-describe{
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.offer__img{
+	margin-left: 32px;
+}
+
+.describe__title{
+	display: block;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.describe-and-button__button{
+	margin-top: 40px;
+}
+
+.button a{
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	font-size: 15px;
+	background-color: #A1F170;
+	text-align: center;
+	padding: 15px 13px;
+	width: 220px;
+}
+
+.img__describe{
+	font-family: 'Raleway';
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.img__describe::after{
+	position: absolute;
+	margin-left: 176px;
+	content: url('../img/Vector\ 1.svg');
+}
+
+
+.main__category{
+	margin-top: 145px;
+}
+
+.category{
+	font-family: 'Ubuntu';
+}
+
+.category__title{
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 7px;
+	border-bottom: 2px solid #A39F9F;
+}
+
+
